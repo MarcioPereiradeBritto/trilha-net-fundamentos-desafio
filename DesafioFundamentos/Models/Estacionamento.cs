@@ -18,7 +18,7 @@ namespace DesafioFundamentos.Models
             string placa = Console.ReadLine();
 
             if (!string.IsNullOrWhiteSpace(placa))
-            // Este sinal "!" antes do string serve para fazer a inverção do valor booleano caso o campo esteja em branco "WhiteEspace".
+            // Este sinal "!" antes do string serve para fazer a inverção do valor booleano caso o campo esteja em branco "WhiteSpace".
             {
                 veiculos.Add(placa);
                 Console.WriteLine($"Veículo com a placa {placa} foi estacionado com sucesso.");
